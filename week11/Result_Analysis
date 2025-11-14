@@ -1,0 +1,44 @@
+Before
+training set : 70%, test set : 30%
+epoch : 20
+
+Model Performance on Test Set:
+==================================================
+Mean Squared Error (MSE):  4.5672
+Root Mean Squared Error (RMSE): 2.1371
+Mean Absolute Error (MAE): 1.6967
+R² Score: 0.9877
+==================================================
+
+Interpretation:
+On average, predictions are off by 1.70
+Model explains 0.99% of the variance in performances
+
+
+
+After 
+training set : 80%, test set: 20% 
+epoch : 200
+
+Model Performance on Test Set:
+==================================================
+Mean Squared Error (MSE):  4.2857
+Root Mean Squared Error (RMSE): 2.0702
+Mean Absolute Error (MAE): 1.6561
+R² Score: 0.9884
+==================================================
+
+Interpretation:
+On average, predictions are off by 1.66
+Model explains 0.99% of the variance in performances
+
+
+
+Difference
+
+MSE : 4.5672 -> 4.2857
+RMSE : 2.1371 -> 2.0702
+MAE: 1.6967 -> 1.6561
+prediction off :  1.70 -> 1.66
+
+
